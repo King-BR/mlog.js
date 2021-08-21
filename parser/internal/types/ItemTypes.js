@@ -20,5 +20,5 @@ module.exports = {
   METAGLASS: "metaglass",
 
   // Modded items
-  mod: moddedItems
-}
+  mod: moddedItems,
+};

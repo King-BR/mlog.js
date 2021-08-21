@@ -2,8 +2,8 @@ const { moddedBlocks } = require("../getModdedContent.js");
 
 module.exports = {
   // Vanilla blocks
-  A: "a",
+  PLACE: "holder",
 
   // Modded blocks
-  mod: moddedBlocks
-}
+  mod: moddedBlocks,
+};

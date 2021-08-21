@@ -8,5 +8,5 @@ module.exports = {
   CRYOFLUID: "cryoFluid",
 
   // Modded liquids
-  mod: moddedLiquids
-}
+  mod: moddedLiquids,
+};

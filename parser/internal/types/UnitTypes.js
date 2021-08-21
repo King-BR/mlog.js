@@ -42,5 +42,5 @@ module.exports = {
   NAVANAX: "navanax",
 
   // Modded units
-  mod: moddedUnits
+  mod: moddedUnits,
 };
