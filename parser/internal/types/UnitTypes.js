@@ -1,4 +1,7 @@
+const { moddedUnits } = require("../getModdedContent.js");
+
 module.exports = {
+  // Vanilla units
   MACE: "mace",
   DAGGER: "dagger",
   CRAWLER: "crawler",
@@ -36,5 +39,8 @@ module.exports = {
   OXYNOE: "oxynoe",
   CYERCE: "cyerce",
   AEGIRES: "aegires",
-  NAVANAX: "navanax"
+  NAVANAX: "navanax",
+
+  // Modded units
+  mod: moddedUnits
 };

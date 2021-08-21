@@ -27,5 +27,8 @@
     "eslint-plugin-prettier": "^3.4.1",
     "prettier": "^2.3.2",
     "prettier-eslint": "^13.0.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security"
   }
 }
