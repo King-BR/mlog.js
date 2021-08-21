@@ -1,5 +1,3 @@
-const methods = require("./methods/index.js");
-
 /**
  * 
  * @param {String} mlog 
