@@ -7,4 +7,4 @@ jump -1 lessThanEq x false      | jump to "-1" if "x" is less than or equal to "
 jump -1 greaterThan x false     | jump to "-1" if "x" is greater than "false"
 jump -1 greaterThanEq x false   | jump to "-1" if "x" is greater than or equal to "false"
 jump -1 strictEqual x false     | jump to "-1" if "x" is strict equal to "false"
-jump -1 always                  | jump to "-1" always
+jump -1 always x false          | jump to "-1" always

@@ -1,15 +1,22 @@
-const fs = require("fs");
+var moddedUnits,
+  moddedItems,
+  moddedLiquids,
+  moddedBlocks = [];
 
-var moddedUnits, moddedItems, moddedLiquids, moddedBlocks = [];
-var modContent = fs.existsSync("modContent.json") ? require("../../modContent.json") : false;
+  /**
+   * Get modded content i
+   * @param {String} json
+   * @return {void}
+   */
+function getModdedContent(json) {
 
-if (modContent != false) {
-
-};
+}
 
 module.exports = {
+  getModdedContent: getModdedContent,
+
   moddedUnits,
   moddedItems,
   moddedLiquids,
-  moddedBlocks
+  moddedBlocks,
 };

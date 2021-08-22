@@ -4,6 +4,8 @@
   "description": "JavaScript interpreter for mlog (Mindustry Logic)",
   "main": "index.js",
   "scripts": {
+    "lint": "npx prettier -w .",
+    "prepare": "npm run lint",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
