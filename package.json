@@ -29,6 +29,7 @@
     "prettier-eslint": "^13.0.0"
   },
   "dependencies": {
-    "fs": "^0.0.1-security"
+    "fs": "^0.0.1-security",
+    "nearley": "^2.20.1"
   }
 }
