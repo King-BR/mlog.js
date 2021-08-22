@@ -1,0 +1,2 @@
+read result cell1 0     | read "var1" from "cell1" from index "0"
+write result cell1 0    | write "var1" to "cell1" in index "0"

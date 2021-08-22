@@ -1,0 +1,3 @@
+getlink result 0                | get link "0" and save to "result"
+
+sensor result block1 @copper    | sense "@copper" at "block1" and save to "result"

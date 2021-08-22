@@ -1,0 +1,2 @@
+| locate units with filters "any", "any", "any" sorted by "distance" around "turret1" with sorting order "1" and save to "result"
+radar any any any distance turret1 1 result

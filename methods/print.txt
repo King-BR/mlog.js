@@ -1,0 +1,3 @@
+print "frog"            | add text to print buffer
+
+printflush message1     | flush queued print operations to "message1"

@@ -1,0 +1,38 @@
+set var 0                   | var = 0
+
+op add var1 1 2             |  +
+op sub var2 1 2             |  -
+op mul var3 1 2             |  *
+op div var4 1 2             |  /
+op idiv var5 1 2            |  //
+op mod var6 1 2             |  %
+op pow var7 1 2             |  ^
+op equal var8 1 2           |  ==
+op notEqual var9 1 2        | !=
+op land var10 1 2           | and
+op lessThan var11 1 2       | <
+op lessThanEq var12 1 2     | <=
+op greaterThan var13 1 2    | >
+op greaterThanEq var14 1 2  | >=
+op strictEqual var15 1 2    | ===
+op shl var16 1 2            | << (bit-shift left)
+op shr var17 1 2            | >> (bit-shift right)
+op or var18 1 2             | or (bitwise or)
+op and var19 1 2            | and (bitwise and)
+op xor var20 1 2            | xor (bitwise xor)
+op not var21 1              | flip (bitwise flip)
+op max var22 1 2            | max
+op min var23 1 2            | min
+op angle var24 1 2          | angle (angle of vector in degrees)
+op len var25 1 2            | len (length of vector)
+op noise var26 1 2          | noise (2D simplex noise) 
+op abs var27 1              | abs (absolute value)
+op log var28 1              | log (natural logarithm)
+op log10 var29 1            | log10 (base 10 logarithm)
+op sin var30 1              | sin (in degrees)
+op cos var31 1              | cos (in degrees)
+op tan var32 1              | tan (in degrees)
+op floor var33 1            | floor
+op ceil var34 1             | ceil
+op sqrt var35 1             | square root
+op rand var36 1             | random decimal in range [0, value)

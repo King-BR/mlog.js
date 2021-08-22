@@ -1,0 +1,27 @@
+ubind @poly                     | bind unit type "@poly" 
+
+ucontrol idle                   | don't move, but continue mining or building (default state)
+ucontrol stop                   | stop everything
+ucontrol move 0 0               | move to posx "0" and posy "0"
+ucontrol approach 0 0 0         | approach posx "0" and posy "0" with radius "0"
+ucontrol boost 0                | enable boost "0"
+ucontrol pathfind               | pathfind to enemy spawn
+ucontrol target 0 0 0           | target posx "0" and posy "0" and shoot "0"
+ucontrol targetp 0 0            | target unit "0" and shoot "0" with velocity prediction
+ucontrol itemDrop 0 0           | drop item to "0" amount "0"
+ucontrol itemTake 0 0 0         | take from "0" item "0" amount "0"
+ucontrol payDrop                | payload drop
+ucontrol payTake 0              | payload take units "0"
+ucontrol mine 0 0               | mine at posx "0" and posy "0"
+ucontrol flag 0                 | numeric unit flag "0"
+ucontrol build 0 0 0 0 0        | build at posx "0" and posy "0" block "0" rotation "0" config "0"
+ucontrol getBlock 0 0 0 0       | get block at posx "0" and posy "0" type "0" building "0"
+ucontrol within 0 0 0 0         | check if unit is near posx "0" and posy "0" radius "0" result "0"
+
+| locate units with filters "any", "any", "any" sorted by "distance" around binded unit with sorting order "1" and save to "result"
+uradar any any any distance 0 1 result 
+
+ulocate ore core true @copper outx outy found building        | locate ore "@copper" and return posx "outx", posy "outy" and found "found"
+ulocate building core true @copper outx outy found building   | locate building of group "core", enemy "true" and return posx "outx", posy "outy", found "found" and building "building"  
+ulocate spawn core true @copper outx outy found building      | locate enemy spawn and return posx "outx", posy "outy", found "found" and building "building"
+ulocate damaged core true @copper outx outy found building    | locate damaged allie building and return posx "outx", posy "outy", found "found" and building "building"
