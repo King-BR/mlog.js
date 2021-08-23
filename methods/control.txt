@@ -1,5 +1,5 @@
-control enabled block1 0          | set enabled of "block1" to "0"
+control enabled block1 0 0 0      | set enabled of "block1" to "0"
 control shoot block1 0 0 0        | "block1" at posx "0" and posy "0" shoot "0"
-control shootp block1 0 0         | "block1" at unit/building "0" shoot "0" with velocity prediction
-control configure block1 0        | set configure of "block1" to "0"
+control shootp block1 0 0 0       | "block1" at unit/building "0" shoot "0" with velocity prediction
+control configure block1 0 0 0    | set configure of "block1" to "0"
 control color block1 0 0 0        | set illuminator "block1" color (R, G, B)

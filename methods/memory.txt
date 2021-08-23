@@ -1,2 +1,2 @@
-read result cell1 0     | read "var1" from "cell1" from index "0"
-write result cell1 0    | write "var1" to "cell1" in index "0"
+read result cell1 0     | read from "cell1" from index "0" and save to "result"
+write result cell1 0    | write "result" to "cell1" in index "0"
